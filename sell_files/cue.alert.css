@@ -1,0 +1,54 @@
+@import url("sweet-alert.css");
+
+.sweet-alert {
+
+  background-color: white;
+  font-family: 'Armata', sans-serif;
+  width: 350px;
+  padding: 16px 24px;
+}
+
+.sweet-alert h2
+{
+   font-size: 13px;
+   text-align: left;
+   margin: 10px 0 24px 0;
+   font-weight: bold;
+}
+
+.sweet-alert .lead
+{
+    font-size: 12px;
+    text-align: left;
+}
+
+.sweet-alert .btn {
+
+	min-width: 70px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 11px;
+    font-weight: 500;
+    -webkit-border-radius: 2px !important;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 10px 5px 0 5px;
+}
+
+.sweet-alert .btn.confirm
+{
+	background-color: #337AB7;
+}
+
+.sweet-alert .btn.cancel
+{
+	background-color: #D9534F;
+}
+
+.sweet-alert .btn:focus
+{
+	outline: thin dotted;
+	color: #fff;
+}
+    

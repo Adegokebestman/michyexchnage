@@ -1,0 +1,17 @@
+.bootstrap-datetimepicker-widget
+{
+  font-size: 12px;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch .glyphicon {
+    font-size: 18px;
+}
+
+.bootstrap-datetimepicker-widget thead tr:first-child th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bootstrap-datetimepicker-widget thead tr:last-child th {
+    padding-bottom: 10px;
+}

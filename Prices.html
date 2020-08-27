@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="#">
+
+    <title>Prices</title>
+    
+    
+    <!-- Bootstrap core CSS -->
+    <link href="./Prices_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./Prices_files/main.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- <link href="./Prices_files/cue.alert.css" rel="stylesheet"> -->
+
+    <link href="./Prices_files/cuegrid.css" rel="stylesheet">
+    
+    <link href="./Prices_files/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <link href="./Prices_files/bootstrap-datetimepicker-custom.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="./Prices_files/custom.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+  <!-- <style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#y8RxTBG-1597491772241{outline:none!important;visibility:visible!important;resize:none!important;box-shadow:none!important;overflow:visible!important;background:none!important;opacity:1!important;filter:alpha(opacity=100)!important;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity1)!important;-moz-opacity:1!important;-khtml-opacity:1!important;top:auto!important;right:10px!important;bottom:0px!important;left:auto!important;position:fixed!important;border:0!important;min-height:0!important;min-width:0!important;max-height:none!important;max-width:none!important;padding:0!important;margin:0!important;-moz-transition-property:none!important;-webkit-transition-property:none!important;-o-transition-property:none!important;transition-property:none!important;transform:none!important;-webkit-transform:none!important;-ms-transform:none!important;width:auto!important;height:auto!important;display:none!important;z-index:2000000000!important;background-color:transparent!important;cursor:auto!important;float:none!important;border-radius:unset!important;pointer-events:auto!important}#GynYFWg-1597491772242.open{animation : tawkMaxOpen .25s ease!important;}</style></head> -->
+
+  <body cz-shortcut-listen="true">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+            
+
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <a class="navbar-brand" href="./index.html"><b>MICHYEXCHANGE</b></a>
+
+          <small class="badge" style="margin-top:14px; background-color: #5c2a9d; padding: 6px 12px">Bitcoin &nbsp; | &nbsp; Perfect Money &nbsp; | &nbsp; Paypal</small>
+
+        </div>
+        <div class="navbar-collapse collapse">
+            
+                      
+          <ul class="nav navbar-nav navbar-right">
+
+            <li class="" id="nav-buy"><a href="./index.html">BUY</a></li>
+
+            <li class="" id="nav-sell"><a href="sell.html">SELL</a></li>
+
+            <li class="" id="nav-exchange"><a href="trade.html">TRADE</a></li>
+
+            <li class="active"><a href="prices.html">PRICES</a></li>
+
+                        
+
+           
+
+        	
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+
+        				<div class="col-lg-12">
+
+        <p class="title pull-left">Prices</p>
+        <span class="clearfix"></span>
+
+          <form method="post" class="plus">
+            
+            <div id="cuegrid" style="width:100%; height:320px;">
+
+<input id="cuegrid-post" name="cuegrid-post" type="hidden" value="">
+
+<input id="cuegrid-sort" name="cuegrid-sort" type="hidden" value="">
+
+<input id="cuegrid-page" name="cuegrid-page" type="hidden" value="">
+
+  <table id="cuegrid-table" class="static" style="width:100%">
+
+    <thead>
+
+      <tr>
+
+        <th name="cuegrid-line-header"><div style="width:50px"><a sort="code" href="javascript:void(0)">Code</a></div></th>
+
+        <th name="cuegrid-line-header"><div style="width:100px"><a sort="buy" href="javascript:void(0)">Buy</a></div></th>
+
+        <th name="cuegrid-line-header"><div style="width:100px"><a sort="sell" href="javascript:void(0)">Sell</a></div></th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr id="13">
+
+        <td style="text-align:left">Ethereum (USD)</td>
+
+        <td style="text-align:left">480.0000</td>
+
+        <td style="text-align:left">420.0000</td>
+
+      </tr>
+
+      <tr id="12">
+
+        <td style="text-align:left">PM  (USD)</td>
+
+        <td style="text-align:left">470.0000</td>
+
+        <td style="text-align:left">456.0000</td>
+
+      </tr>
+
+      <tr id="11">
+
+        <td style="text-align:left">Paypal ( USD)</td>
+
+        <td style="text-align:left">485.0000</td>
+
+        <td style="text-align:left">0.0000</td>
+
+      </tr>
+
+      <tr id="10">
+
+        <td style="text-align:left">BTC (USD)</td>
+
+        <td style="text-align:left">473.0000</td>
+
+        <td style="text-align:left">460.0000</td>
+
+      </tr>
+
+      <tr id="7">
+
+        <td style="text-align:left">bitcoin cash</td>
+
+        <td style="text-align:left">447.0000</td>
+
+        <td style="text-align:left">427.0000</td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+  
+
+  
+
+</div>
+
+  <!-- <div id="cuegrid-pagination">
+
+  <ul>
+
+  <span class="label">1 - 5 | 5</span>
+
+  </ul>
+
+</div> -->
+
+
+
+          </form>
+
+				</div><!-- /col-lg-6 -->				
+			</div><!-- /row -->
+
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+    	
+
+
+	<div class="container">
+
+		<div class="socials row">
+			
+		
+								
+				<span><a title="Instagram" target="_blank" href="https://www.instagram.com/michyexchange/"><i class="fa fa-instagram"></i> Instagram</a></span>
+
+								
+			
+								
+				<span><a title="Twitter" target="_blank" href="https://twitter.com/limitedmichy"><i class="fa fa-twitter-square"></i> Twitter</a></span> 
+
+								
+			
+				
+				<span title="Support"><i class="fa fa-headphones"></i> +(234)8096538150</span>
+
+								
+			
+				
+				<span title="WhatsApp"><i class="fa fa-whatsapp"></i> +(234)8161861119</span>
+
+								
+			
+		</div>
+		
+		<div class="row mt centered featured">
+			<div class="col-lg-4">
+				<i class="fa fa-btc" aria-hidden="true"></i>
+				<h4>ECurrencies Exchanger</h4>
+				<p>Bitcoin and other digital currencies are instantly available on our automated exchange platform</p>
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<i class="fa fa-handshake-o" "="" aria-hidden="true"></i>
+				<h4>Instant Transactions</h4>
+				<p>Bitcoin and other digital currencies are instantly available on our automated buy and sell system.</p>
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<i class="fa fa-gift" aria-hidden="true"></i>
+				<h4>Discounted Offers</h4>
+				<p>Bitcoin and other digital currencies are instantly available on our automated buy and sell system.</p>
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+	<footer class="footer">
+		<div class="container">
+			<p><span>Michy Exchange © 2020. &nbsp; All rights reserved.</span>|<span><a href="Terms.html">Terms &amp; Conditions</a></span>|<span><a href="Privacy.html">Privacy Policy</a></span></p>
+		</div>
+	</footer>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+    <script async="" src="./Prices_files/default" charset="UTF-8" crossorigin="*"></script><script src="./Prices_files/jquery.min.js"></script>
+    <script src="./Prices_files/bootstrap.min.js"></script>
+    <script src="./Prices_files/freeman.js"></script>
+
+    <!-- <script src="./Prices_files/cue.alert.js.download"></script> -->
+    <script src="./Prices_files/jquery.cuegrid.js"></script>
+
+    <script src="./Prices_files/moment.min.js"></script>
+    <script src="./Prices_files/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="./Prices_files/functions.js"></script>
+</body></html> 
